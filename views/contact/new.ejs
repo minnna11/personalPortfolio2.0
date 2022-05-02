@@ -1,0 +1,44 @@
+<%- include('../partials/headers.ejs')%>
+
+<div class="contact-page">
+    <h1>Contact Me!</h1>
+</div>
+<div class = "contact-content">
+    <form action = '/contacts' method = 'POST'>
+        <table>
+            <tr>
+                <td><label for="fName">First Name</label></td>
+                <td><input type="text" id="fName" name="fName" class = "fixed-width" required></td>
+            </tr>
+            <tr>
+                <td><label for="lName">Last Name</label></td>
+                <td><input type="text" id="lName" name="lName" class = "fixed-width" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" class = "fixed-width" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number</label></td>
+                <td><input type="tel" id="phone" name="phone" class = "fixed-width" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></td>
+            </tr>
+            <tr>
+                <td class = "align-top"><label for="content">Message</label></td>
+                <td><textarea rows="5" id="content" name="content" class = "fixed-width" required></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="when">Date</label></td>
+                <td><input type="date" id="when" name="when" class = "fixed-width"  value=""
+                    min="2018-01-01" max="2030-12-31" required></td>
+            </tr>
+        
+         
+            <tr>
+                <td colspan="2" class = "align-right"><button>Submit</button></td>
+            </tr>
+        </table>        
+    </form>
+
+    </div>
+<%- include('../partials/footer.ejs')%>

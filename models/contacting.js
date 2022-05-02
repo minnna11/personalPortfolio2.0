@@ -8,7 +8,7 @@ const contactingSchema = new Schema({
     email:{type:String, required:[true,'email is required']},
     phone:{type:String, required:[true,'phone is required']},
     content:{type:String, required:[true,'content is required'],
-    minLength:[10, 'the content should have at least 10 characters']},
+    minLength:[11, 'the content should have at least 11 characters']},
     when:{type:String, required:[true,'content is required']}
 },
     {timestamp:true}    

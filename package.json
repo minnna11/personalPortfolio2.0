@@ -1,0 +1,19 @@
+{
+  "name": "personalportfoliov2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minnna11/personalPortfolio2.0.git"
+  },
+  "author": "min",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minnna11/personalPortfolio2.0/issues"
+  },
+  "homepage": "https://github.com/minnna11/personalPortfolio2.0#readme"
+}

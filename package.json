@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/minnna11/personalPortfolio2.0/issues"
   },
-  "homepage": "https://github.com/minnna11/personalPortfolio2.0#readme"
+  "homepage": "https://github.com/minnna11/personalPortfolio2.0#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }

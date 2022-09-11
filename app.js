@@ -12,7 +12,7 @@ const session = require('express-session');
 //create app
 const app = express();
 //configure app
-let port = Process.env.PORT || 3000;
+let port = process.env.PORT || 5000;
 let host = 'localhost'; 
 app.set('view engine', 'ejs');
 
